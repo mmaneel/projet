@@ -1,6 +1,8 @@
 import React from 'react'
 import Logo from '../../LOGO.png'
 import ReactDOM from 'react-dom';
+import {auth} from '../../firebase.config.js'
+import { createUserWithEmailAndPassword } from 'firebase/auth';
 
 export class RegFields extends React.Component{
     
@@ -8,6 +10,45 @@ export class RegFields extends React.Component{
         super(props);
         
     }
+
+    state = {
+        Email:"",
+        password:"",
+        Fname:"",
+        Lname:"",
+        merror:"",
+
+    }
+
+    //Put the Email and Password in a variable to sign up
+    handleMailChange = (event)=> {
+        this.setState({ Email: event.currentTarget.value});
+    }
+
+    handlePassChange = (event)=> {
+        this.setState({ password: event.currentTarget.value});
+    }
+
+    //Register in the database 
+    handleRegClick =(event)=>{
+        event.preventDefault();
+        //verification size password
+        if(this.state.password.length<7){this.setState({merror :"Your passeword is too short"})}
+        
+        
+        else {
+            try {
+                createUserWithEmailAndPassword(auth,this.state.Email,this.state.password);
+            
+            }catch(err){
+                console.log(err.code)
+                this.setState({merror: err.code });
+            }
+        }
+        
+
+    }
+
   
     render(){
         return (
@@ -34,13 +75,14 @@ export class RegFields extends React.Component{
 
                 <div className="formItem">
                     
-                    <input type="email" placeholder='Email' />
+                    <input onChange={this.handleMailChange} type="email" placeholder='Email' />
                 </div>
 
                 <div className="formItem">
                     
-                    <input type="password" placeholder='Password'/>
+                    <input onChange={this.handlePassChange} type="password" placeholder='Password'/>
                 </div>
+                <p>{this.state.merror}</p>
 
                 
                 
@@ -48,7 +90,7 @@ export class RegFields extends React.Component{
             </div>
 
             <div className="footer">
-                <button className="loginBtn">Register</button>
+                <button className="loginBtn" onClick={this.handleRegClick}>Register</button>
             </div>
             </div>
             )
