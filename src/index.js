@@ -7,13 +7,13 @@ import './index.css';
 //import {LoginFields} from './components/login/index'
 import {Status} from './components/profile/index';
 import {ProfileInfos} from './components/profile/ProfileInfos'
-
+import {MainContainer} from './components/profile/MainContainer'
 
 
 
 ReactDOM.render(
   
-  <ProfileInfos />,
+  <MainContainer />,
   document.getElementById('root')
   );
 

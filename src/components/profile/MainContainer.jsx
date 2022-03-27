@@ -1,21 +1,20 @@
 import React, { Component } from 'react';
 
-import {PofileInfos} from "./ProfileInfos"
-import { Stats } from "./stats"
+import {ProfileInfos} from "./ProfileInfos"
+import { Status } from "../profile/Status"
 
 
 
 
-class MainContainer extends Component {
+export class MainContainer extends Component {
     state = {  } 
     render() { 
         return (
             <div className="mainContainer">
-                <Stats />
-                <PofileInfos />
+                <Status />
+                <ProfileInfos />
             </div>
         );
     }
 }
  
-export default MainContainer;

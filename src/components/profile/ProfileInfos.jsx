@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import albert from './images/albert.png'
+
+
+
+
 export class ProfileInfos extends Component {
     state = {
         imgSrc:'/home/codename0/Project_HBird/Hbird-betta/src/components/profile/images/albert.png'
@@ -7,7 +11,7 @@ export class ProfileInfos extends Component {
 
     render() { 
         return (
-            <div className="mainContainer">
+            <div className="profile">
                 <div className="info">
                     <img src={albert} alt="why the hell" />
                     <h4 className='name'>khorchf</h4>
