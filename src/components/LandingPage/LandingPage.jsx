@@ -1,11 +1,6 @@
 import React, { Component } from 'react';
-import NavBar from './NavBar'
-import Intro from './Intro'
-import WhyUs from './WhyUs'
-import PopularPaths from './PopularPaths';
-import AboutUs from './AboutUs';
+import {NavBar, FAQ, AboutUs, Intro, PopularPaths, WhyUs, Reviews, Footer} from './index'
 
-import Footer from './Footer';
 import webDevImg from './images/webDevImg.svg'
 import designImg from './images/designImg.svg'
 import networkImg from './images/networkImg.svg'
@@ -21,21 +16,31 @@ export class LandingPage extends Component {
         ],
 
         roadmaps: [
-            {id: 1,title: "Web Development", rating: 3, image: webDevImg, Pop: false},
+            {id: 1,title: "Web Dev", rating: 3, image: webDevImg, Pop: false},
             {id: 2,title: "Networking", rating: 4, image: networkImg, Pop: true},
             {id: 3,title: "Design", rating: 2, image: designImg, Pop: false},
+        ],
+
+        faq: [
+            {id: 1, qst:'why are we still Here?', answer: 'Just to SUFFER Just to SUFFER Just to SUFFER Just to SUFFER Just to SUFFER Just to SUFFER Just to SUFFER Just to SUFFER Just to SUFFER Just to SUFFER Just to SUFFER '},
+            {id: 2, qst:'Why did you choose ESI?', answer: 'I wanted to know how it feels to be a cat'},
+            {id: 3, qst:'why are we still Here?', answer: 'Just to SUFFER Just to SUFFER Just to SUFFER Just to SUFFER Just to SUFFER Just to SUFFER Just to SUFFER Just to SUFFER Just to SUFFER Just to SUFFER Just to SUFFER '},
+            {id: 4, qst:'Why did you choose ESI?', answer: 'I wanted to know how it feels to be a cat'}
         ]
+
+
      } 
+     
     render() { 
         return (
             <div className="LandingPage">
                 <NavBar/>
-                <div className="IntroPage">
-                    <Intro/>
-                </div> 
+                <Intro/>
                 <WhyUs cards={this.state.whyUsCards} />
                 <PopularPaths roadmaps={this.state.roadmaps}/>
                 <AboutUs/>
+                <FAQ questions={this.state.faq} />
+                <Reviews/>
                 <Footer/>
             </div>
         );

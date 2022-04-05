@@ -22,9 +22,7 @@ export class MainContainer extends React.Component{
     }
 
     displayLog = () => {
-        document.getElementById('log').classList.toggle("active-state")
-        document.getElementById('reg').classList.toggle("active-state")
-        this.setState({logActive: true})
+        console.log('clicked');
     }
 
     render(){
@@ -36,7 +34,7 @@ export class MainContainer extends React.Component{
         <>
         <div className="mainContainer">
             <div className="header">
-                <button className={logClasses} id="log" onClick={this.displayLog}>Login</button>
+                <button className={logClasses} id="log" onClick={this.displayLog()}>Login</button>
                 <button className={regClasses} id="reg" onClick={this.displayReg}>Register</button>
                 
             </div>
