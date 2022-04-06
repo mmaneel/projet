@@ -1,0 +1,1 @@
+export {Footer} from '../global/components/Footer'

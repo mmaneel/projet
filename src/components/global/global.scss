@@ -1,0 +1,76 @@
+/* Global Variables */
+    /* Colors */
+    *{
+        --main-orange: #F5A302;
+        --white: #ffffff;
+        --black: #000000;
+        --gray: gray;
+        --light-gray: #E5E5E5;
+        --lighter-gray: #efeded;
+        --pink: #FEB4B4;
+        --green: #58F9C8;
+        --medium-gray: #cdcdcd;
+        --blue: #0C71CE;
+        --lighter-blue: #DFF3FF;
+    }
+    
+    
+    /* Global Styles */
+    *{
+        box-sizing: border-box;
+        font-family: 'Montserrat', serif;
+        margin: 0;
+        padding: 0;
+        text-underline-position: under;
+        .btn{
+            color: var(--white);
+            padding: .5rem 3rem;
+            border-radius: 10%;
+            border: none;
+            margin: 0 .5rem;
+            transition: transform 250ms;
+            cursor: pointer;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+    
+        .container{
+            padding: 2rem;
+        }
+    
+        .btn-orange{
+            background-color: var(--main-orange);
+            color: white;
+            display: inline-flex;
+            align-items: center;
+        }
+    
+        .btn-nav{
+            background-color: transparent;
+            border: none;
+            color: var(--black);
+            margin: 0;
+            padding: 10px;
+        }
+    
+        .btn-nav-active{
+            text-decoration: underline;
+        }
+    
+        .btn-icon{
+            background-color: transparent;
+            border: none;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100px;
+            height: 100px;
+            padding: 0  ;
+        }
+    }
+    
+@import './styles/footer.scss';
+@import './styles/navBar.scss';
+@import './styles/roadmap.scss';

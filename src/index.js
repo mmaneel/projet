@@ -1,23 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-//import {RegFields} from './components/login/index';
-//import {MainContainer} from './components/login/index'; 
-//import {LoginFields} from './components/login/index'
-import {Status} from './components/profile/index';
-import {ProfileInfos} from './components/profile/ProfileInfos'
-import {MainContainer} from './components/login/MainContainer'
-
-
+import HomePage from './components/homePage/HomePage'
+import {LandingPage} from './components/LandingPage/index'
+ 
 
 ReactDOM.render(
-  
-  <App />,
+  <LandingPage />,
   document.getElementById('root')
   );
-
-
   
 
 

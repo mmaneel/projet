@@ -1,7 +1,8 @@
 import React from 'react'
 import Logo from '../../LOGO.png'
 import ReactDOM from 'react-dom';
-
+import {auth} from '../../firebase.config.js'
+import { createUserWithEmailAndPassword } from 'firebase/auth';
 
 export class RegFields extends React.Component{
     
@@ -29,7 +30,24 @@ export class RegFields extends React.Component{
     }
 
     //Register in the database 
-   
+    handleRegClick =(event)=>{
+        event.preventDefault();
+        //verification size password
+        if(this.state.password.length<7){this.setState({merror :"Your passeword is too short"})}
+        
+        
+        else {
+            try {
+                createUserWithEmailAndPassword(auth,this.state.Email,this.state.password);
+            
+            }catch(err){
+                console.log(err.code)
+                this.setState({merror: err.code });
+            }
+        }
+        
+
+    }
 
   
     render(){

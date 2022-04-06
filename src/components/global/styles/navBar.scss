@@ -1,0 +1,42 @@
+.NavBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    
+    .logo{
+        width: 5%;
+        transition: transform 250ms;
+        cursor: pointer;
+        &:hover{
+            transform: scale(1.1);
+        }
+
+        img{
+            width: 100%;    
+        }
+    }
+
+    .navigations{
+        width: 60%;
+        display: flex;
+        
+
+        
+    }
+
+    .login{
+        display: flex;
+        button{
+            border-radius: 20px;
+            padding: .5rem 2.5rem;
+        }
+        .btn-login{
+            color: var(--main-orange);
+            background-color: transparent;
+            outline: solid var(--main-orange) .1rem;
+        }
+
+        
+    }
+}

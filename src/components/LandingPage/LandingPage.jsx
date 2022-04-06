@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import {NavBar, FAQ, AboutUs, Intro, PopularPaths, WhyUs, Reviews, Footer} from './index'
-
+import { FAQ, AboutUs, Intro, PopularPaths, WhyUs, Reviews, Footer} from './index'
+import { NavBar } from '../global/global';
 import webDevImg from './images/webDevImg.svg'
 import designImg from './images/designImg.svg'
 import networkImg from './images/networkImg.svg'
@@ -30,6 +30,7 @@ export class LandingPage extends Component {
 
 
      } 
+
      
     render() { 
         return (
