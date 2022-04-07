@@ -5,7 +5,7 @@ import {LandingPage} from './components/LandingPage/index'
  
 
 ReactDOM.render(
-  <LandingPage />,
+  <HomePage />,
   document.getElementById('root')
   );
   

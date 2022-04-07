@@ -2,7 +2,7 @@ import activeStar from '../images/activeStar.svg'
 import star from '../images/star.svg'
 
 
-const Rating = ({rating}) => {
+export const Rating = ({rating}) => {
     const index = [1, 2, 3, 4, 5];
 
     return ( 
@@ -15,5 +15,3 @@ const Rating = ({rating}) => {
         </div>
      );
 }
- 
-export default Rating;

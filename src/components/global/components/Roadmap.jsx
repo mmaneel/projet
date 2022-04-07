@@ -1,4 +1,4 @@
-import Rating from './Rating';
+import {Rating} from '../global';
 //import './roadmap.scss'
 
 

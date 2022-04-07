@@ -12,6 +12,10 @@
         --medium-gray: #cdcdcd;
         --blue: #0C71CE;
         --lighter-blue: #DFF3FF;
+
+        --nav-size: 50px;
+        --road-height: 300px;
+        --road-width: 250px;
     }
     
     
@@ -33,10 +37,13 @@
             &:hover{
                 transform: scale(1.1);
             }
+            &:focus{
+                box-shadow: none;
+            }
         }
     
         .container{
-            padding: 2rem;
+            //padding: 2rem;
         }
     
         .btn-orange{
@@ -52,6 +59,7 @@
             color: var(--black);
             margin: 0;
             padding: 10px;
+            font-size: small;
         }
     
         .btn-nav-active{
@@ -74,3 +82,5 @@
 @import './styles/footer.scss';
 @import './styles/navBar.scss';
 @import './styles/roadmap.scss';
+@import './styles/search.scss';
+@import './styles/enrolled.scss';

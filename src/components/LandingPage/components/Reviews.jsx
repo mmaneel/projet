@@ -1,10 +1,10 @@
 import { useState } from "react";
-import Rating from "../../global/components/Rating";
+import {Rating} from "../../global/global";
 import _ from 'lodash';
-import profile0 from '../images/profile0.svg'
-import profile1 from '../images/profile1.svg'
-import profile2 from '../images/profile2.svg'
-import profile3 from '../images/profile3.svg'
+import profile0 from '../../global/images/profile0.svg'
+import profile1 from '../../global/images/profile1.svg'
+import profile2 from '../../global/images/profile2.svg'
+import profile3 from '../../global/images/profile3.svg'
 
 export const Reviews = () => {
     const [ allReviews, setReview] = useState([

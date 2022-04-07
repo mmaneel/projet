@@ -2,10 +2,11 @@ import persons from '../images/persons.svg';
 
 
 export const WhyUs = (props) => {
+        console.log('props from whyUs: ', props);
         return (
             <div className="WhyUs">
                 <div className="text">
-                    <h2>why choose HBIRD</h2>
+                    <h2  onClick={props.handleClick}   >why choose HBIRD</h2>
                     <p>We made Hbird with the ideology of Guiding people through the hard path of learning </p>
                 </div>
                 <div className="cards">

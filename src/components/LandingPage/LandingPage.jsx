@@ -29,7 +29,11 @@ export class LandingPage extends Component {
         ]
 
 
-     } 
+    } 
+
+    clicked(){
+        alert('clicked');
+    }
 
      
     render() { 
@@ -37,7 +41,14 @@ export class LandingPage extends Component {
             <div className="LandingPage">
                 <NavBar/>
                 <Intro/>
-                <WhyUs cards={this.state.whyUsCards} />
+
+
+                <WhyUs cards={this.state.whyUsCards} handleClick={this.clicked} />
+
+
+
+
+
                 <PopularPaths roadmaps={this.state.roadmaps}/>
                 <AboutUs/>
                 <FAQ questions={this.state.faq} />

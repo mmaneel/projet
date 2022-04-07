@@ -1,1 +1,6 @@
 export {NavBar} from './components/NavBar'
+export {Search} from './components/Search'
+export {Footer} from './components/Footer'
+export {Rating} from './components/Rating'
+export {Enrolled} from './components/enrolledRoadmaps'
+export {Roadmap} from './components/Roadmap'
