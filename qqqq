@@ -1,0 +1,291 @@
+[33mcommit 76614263ec2ae0274b45e47c99a3970f0ac0693d[m[33m ([m[1;36mHEAD -> [m[1;32mHomePage[m[33m)[m
+Author: Code-Name-0 <ra.djebarra@esi-sba.dz>
+Date:   Thu Apr 7 14:35:46 2022 -0700
+
+    home page bettz done
+
+[33mcommit 98a9d6f3751087f9df40af9f135f2e795ec155ed[m[33m ([m[1;31morigin/HomePage[m[33m)[m
+Author: Code-Name-0 <ra.djebarra@esi-sba.dz>
+Date:   Wed Apr 6 05:27:14 2022 -0700
+
+    changed project structure
+
+[33mcommit 2f619a91e701b8d293ed551ce7bce4c938287d78[m
+Author: Code-Name-0 <ra.djebarra@esi-sba.dz>
+Date:   Wed Apr 6 03:49:22 2022 -0700
+
+    restyled reviews pagination
+
+[33mcommit d260252604cd50c8c5550822f0e522df676be37f[m
+Author: Code-Name-0 <ra.djebarra@esi-sba.dz>
+Date:   Tue Apr 5 20:26:14 2022 -0700
+
+    LandingPage initialy done (front)
+
+[33mcommit ba9bf8bc0d555acdbee96d6ae3018a0ecc985dbe[m
+Author: Code-Name-0 <ra.djebarra@esi-sba.dz>
+Date:   Tue Apr 5 16:17:39 2022 -0700
+
+    git wants me to commit
+
+[33mcommit bc14643581a40d874571d6e94923b0a4218ee32b[m
+Author: Code-Name-0 <ra.djebarra@esi-sba.dz>
+Date:   Tue Apr 5 11:59:09 2022 -0700
+
+    please
+
+[33mcommit ed52807e64c1bfbf48559f53006d6ec956ff0a77[m
+Author: Code-Name-0 <76662578+Code-Name-0@users.noreply.github.com>
+Date:   Tue Apr 5 08:24:39 2022 -0700
+
+    Delete node_modules directory
+
+[33mcommit 37d1e286a33026ba6b6dade7088f93d19b04af61[m
+Author: Code-Name-0 <ra.djebarra@esi-sba.dz>
+Date:   Sat Apr 2 05:55:04 2022 -0700
+
+    done: WhyUs, PopularPaths, AboutUs, Footer, some responsive tweaks
+
+[33mcommit c75b5080c8d0aff6b6dd0ad696f29786b72aaa8d[m
+Author: Code-Name-0 <ra.djebarra@esi-sba.dz>
+Date:   Fri Apr 1 10:00:30 2022 -0700
+
+    ghlat fles branches khdamt had lkhdma fi branche ta3 logins hadi ghir commit bach ncree la branche
+
+[33mcommit adad2d29e2ccf98a50b6544e2ee281432beab6ec[m
+Author: Code-Name-0 <ra.djebarra@esi-sba.dz>
+Date:   Fri Apr 1 09:55:46 2022 -0700
+
+    added landing page => navbar done, introPage half-done
+
+[33mcommit c9b2031d0a2e83d80a37a8c321439960acb6a993[m
+Merge: 18377547 c7426000
+Author: Code-Name-0 <76662578+Code-Name-0@users.noreply.github.com>
+Date:   Sat Mar 26 15:24:43 2022 +0100
+
+    Merge pull request #1 from Code-Name-0/iheb
+    
+    Setup of personnal firebase for testing; and register possible with test of password size
+
+[33mcommit c7426000dbb7a92e5e700286d8ffeb1f475ab9b9[m
+Author: HmIheb <hmihabou@gmail.com>
+Date:   Sat Mar 26 14:42:08 2022 +0100
+
+     Please enter the commit message for your changes. Lines starting
+     with '' will be ignored, and an empty message aborts the commit.
+    
+     On branch iheb
+     Changes to be committed:
+            new file:   node_modules/.cache/babel-loader/0217054c05103974954e8fabb7e505fe.json
+            new file:   node_modules/.cache/babel-loader/021e18cb746761a19580ee8831c50129.json
+            new file:   node_modules/.cache/babel-loader/04428ed328300d63ce1608024f5acc24.json
+            new file:   node_modules/.cache/babel-loader/0cf48063c0706b68204b1393b2acc067.json
+            new file:   node_modules/.cache/babel-loader/0ef105cd481d5bfa6f84974675ea3a50.json
+            new file:   node_modules/.cache/babel-loader/1073da5cb19c1da2f4a324be388a421a.json
+            new file:   node_modules/.cache/babel-loader/14db5cb18edc7cb780a4cc03aed81812.json
+            new file:   node_modules/.cache/babel-loader/14e7c591363b76736f75e197651847de.json
+            new file:   node_modules/.cache/babel-loader/15e229877d5845a179944cfa1d1d0cbf.json
+            new file:   node_modules/.cache/babel-loader/18845bee619a4077da0034eed9ee88ae.json
+            new file:   node_modules/.cache/babel-loader/19150d8fd7f04f16f6dfd3f9b5975b97.json
+            new file:   node_modules/.cache/babel-loader/1b0ef041846c12668b291f4deb75f36e.json
+            new file:   node_modules/.cache/babel-loader/1b95c3688a2268027ca805884d70eff6.json
+            new file:   node_modules/.cache/babel-loader/1d005af3c0ed5b640a634e8175da16da.json
+            new file:   node_modules/.cache/babel-loader/1fe99d9519c679b3ed5f10ea17b471ad.json
+            new file:   node_modules/.cache/babel-loader/20076fb622f0fb8baf18aa70b685911d.json
+            new file:   node_modules/.cache/babel-loader/217d7d96e5befc56ed1ec89be33ba665.json
+            new file:   node_modules/.cache/babel-loader/2422ae1deab66851b29f6b2c61f00821.json
+            new file:   node_modules/.cache/babel-loader/24661bdfa04f922745ebe572c2e6b884.json
+            new file:   node_modules/.cache/babel-loader/2616969aad46d8b64c98b3d86547a0b5.json
+            new file:   node_modules/.cache/babel-loader/27816ab377705b7b068799c768702ff1.json
+            new file:   node_modules/.cache/babel-loader/28b67a4acfa6503fab3d1d6b5e8f2716.json
+            new file:   node_modules/.cache/babel-loader/28e5e9e418c5802d6ac6c4d358af1919.json
+            new file:   node_modules/.cache/babel-loader/2b470ecce4770f6feefc7e54d4bab9b6.json
+            new file:   node_modules/.cache/babel-loader/2bdc03d4385ea25d3d9f8f761594d2f9.json
+            new file:   node_modules/.cache/babel-loader/2d9d6dcc150b4ae45993f22f5e397b15.json
+            new file:   node_modules/.cache/babel-loader/2f787376cbd1a6522a4a076da197f025.json
+            new file:   node_modules/.cache/babel-loader/30b81a78f5d3ed0561130718e1d864de.json
+            new file:   node_modules/.cache/babel-loader/33f3615b21603c02315a267014c809b1.json
+            new file:   node_modules/.cache/babel-loader/357eab8ea65bf99c8571a441023657a0.json
+            new file:   node_modules/.cache/babel-loader/36c10d8d411819785ba5f34b59af830a.json
+    new file:   node_modules/.cache/babel-loader/36d0dc8f27015479205c5b10b5d1ecdc.json
+            new file:   node_modules/.cache/babel-loader/380be950206e26a76bc27e02c134016d.json
+            new file:   node_modules/.cache/babel-loader/384098f74e53bac23d84cb67925e5873.json
+            new file:   node_modules/.cache/babel-loader/3911e0efc86c75b3045601cdb53ae0a7.json
+            new file:   node_modules/.cache/babel-loader/3aaaa3db751fa9ec9665bc7cfef6d41a.json
+            new file:   node_modules/.cache/babel-loader/3b480be22d847a8e6bd0db5cd85ed030.json
+            new file:   node_modules/.cache/babel-loader/3d97081366c1dad738bf097d0541b64e.json
+            new file:   node_modules/.cache/babel-loader/3db80d3635cb72dced7fa9a67a6e5c26.json
+            new file:   node_modules/.cache/babel-loader/3e971ead638dfac4ebe214a689af90e2.json
+            new file:   node_modules/.cache/babel-loader/4148d2bac368bd62ba2b4f19a43b7799.json
+            new file:   node_modules/.cache/babel-loader/421c4e64c68832cc217e1d93992e40d3.json
+            new file:   node_modules/.cache/babel-loader/42bc3dd1936f15cd18bb7ad0f98be05f.json
+            new file:   node_modules/.cache/babel-loader/45f0f949af2f432bc2fd40ec26ed9860.json
+            new file:   node_modules/.cache/babel-loader/46e3bd8885c96002f938a141212275d1.json
+            new file:   node_modules/.cache/babel-loader/4792e9a53dabbbefb6f65d70dee5e835.json
+            new file:   node_modules/.cache/babel-loader/47fe02a057be43dc446bc4411aaba0a8.json
+            new file:   node_modules/.cache/babel-loader/4956223db15b5e79d0097f4435379b05.json
+            new file:   node_modules/.cache/babel-loader/499554a5dc07628a7a6f2ce7b2c2c718.json
+            new file:   node_modules/.cache/babel-loader/4bb9eb6e30c9619a8f3e5ab503a667e1.json
+            new file:   node_modules/.cache/babel-loader/4d4bf6cbfcc59e466b92f265326759ad.json
+            new file:   node_modules/.cache/babel-loader/4f239f10f618a9aea0f48becd99a0f37.json
+            new file:   node_modules/.cache/babel-loader/4fd72f0d6c3d05f566a745e65af449e8.json
+            new file:   node_modules/.cache/babel-loader/5218b722000a7262a689b621556d963a.json
+            new file:   node_modules/.cache/babel-loader/5239ccde8488dece4d622979cff4be2f.json
+            new file:   node_modules/.cache/babel-loader/58cbca88a0c5607a96d24a1b1c2a8b5f.json
+            new file:   node_modules/.cache/babel-loader/5a66775cfa4eb4ba2e22124c06a37673.json
+            new file:   node_modules/.cache/babel-loader/5bc672debaf366617774ba0e3a360d88.json
+            new file:   node_modules/.cache/babel-loader/5c0925c16daeb393e2a9a9c3b82c88e3.json
+            new file:   node_modules/.cache/babel-loader/6355050babf4749c0d4de461815065f7.json
+            new file:   node_modules/.cache/babel-loader/64d3111ab4191717eedcb5bed474bd23.json
+            new file:   node_modules/.cache/babel-loader/65174dca79a610b66409fffefe758f92.json
+            new file:   node_modules/.cache/babel-loader/654e14966e665ce9f24e0c627d0873a5.json
+            new file:   node_modules/.cache/babel-loader/659629e5fbc959739b739a448f2826d5.json
+            new file:   node_modules/.cache/babel-loader/679e71119243244accf6a18d552758fb.json
+            new file:   node_modules/.cache/babel-loader/698cd5e2e8faa05156542562b7c83499.json
+            new file:   node_modules/.cache/babel-loader/6aaa4bceed227325d9391e5d604288bd.json
+            new file:   node_modules/.cache/babel-loader/6d0b89c5aafa0e6ad495eb698e4de2d9.json
+            new file:   node_modules/.cache/babel-loader/714c87d7d57fbc012672d8b13cda4ae0.json
+            new file:   node_modules/.cache/babel-loader/71aed482b0627d39d6bbb756822c2a9a.json
+            new file:   node_modules/.cache/babel-loader/7493f311e49cac3a4ab08ebee9ecd705.json
+            new file:   node_modules/.cache/babel-loader/7620903b26944e74b3bdb1046d6cebaa.json
+            new file:   node_modules/.cache/babel-loader/7630731ec77baa9c0f61e1ffe0f4ff72.json
+            new file:   node_modules/.cache/babel-loader/7aad005025854d05b18237daf33b4f94.json
+            new file:   node_modules/.cache/babel-loader/7d3f4cb59c92ba09adc10bb7f9f8dca6.json
+            new file:   node_modules/.cache/babel-loader/7e5837370c0ee3ef9b50e42ece1f7cd0.json
+            new file:   node_modules/.cache/babel-loader/7f50ed80e115c95181331deb8af7ea46.json
+            new file:   node_modules/.cache/babel-loader/7f76e059b272f76b8778da42dd71f159.json
+            new file:   node_modules/.cache/babel-loader/8668bb62a8e545468d6c7a080f3dea7c.json
+            new file:   node_modules/.cache/babel-loader/87799037bac117bcaa322be73b41c420.json
+            new file:   node_modules/.cache/babel-loader/8dcf0b4d6a7a299bd653217cb3df836a.json
+            new file:   node_modules/.cache/babel-loader/92a1e661b05007c4776bb4a100a4fb8f.json
+            new file:   node_modules/.cache/babel-loader/92b1f86f82d6b1f1a4a17b6136e282e5.json
+            new file:   node_modules/.cache/babel-loader/941f0c1afe58bf22129f222687998757.json
+            new file:   node_modules/.cache/babel-loader/9464738abd46459c2d85b1cd2c3614c9.json
+            new file:   node_modules/.cache/babel-loader/965ef92ed77b4ce77d7501accc6d29f1.json
+            new file:   node_modules/.cache/babel-loader/96edc747488df74f864704d98baa623c.json
+            new file:   node_modules/.cache/babel-loader/97cd92c32d6d6d50814231e3f0a6e301.json
+            new file:   node_modules/.cache/babel-loader/98f3e48f08c933fba56f7dff869e2dca.json
+            new file:   node_modules/.cache/babel-loader/9a95eee1dccb46251e322b11f3393080.json
+            new file:   node_modules/.cache/babel-loader/9bbd672cf74f1eea452b84feaf47572a.json
+            new file:   node_modules/.cache/babel-loader/9c5a6ffc989c2290b93a73d8bcbe5de0.json
+            new file:   node_modules/.cache/babel-loader/9d1dcdc550db0ea9f54c60d146555b45.json
+            new file:   node_modules/.cache/babel-loader/9d431bc94932d87c9e1489e7ffcad441.json
+            new file:   node_modules/.cache/babel-loader/9d808c00224c60ead394ff61c527a9e5.json
+            new file:   node_modules/.cache/babel-loader/9e0464e2d841b65b242eed458287ca62.json
+            new file:   node_modules/.cache/babel-loader/9e063a84135160acc88c85f50db7f8c7.json
+            new file:   node_modules/.cache/babel-loader/9e6892e5bf08f0568bf68c4f5c2ffecb.json
+            new file:   node_modules/.cache/babel-loader/a29f3e0a5054c4ba45ed0108630d20cf.json
+            new file:   node_modules/.cache/babel-loader/a3183dd213e2444468c0a9ce83cddc91.json
+            new file:   node_modules/.cache/babel-loader/a5301384aec78484a830428e62e5251b.json
+            new file:   node_modules/.cache/babel-loader/a5a40b45bcd7f6c27e8c6eb306c71b68.json
+            new file:   node_modules/.cache/babel-loader/a79cc8f4d59d70bbac87c34c4c1cf2b6.json
+            new file:   node_modules/.cache/babel-loader/a980196dc69dd513b1585fd1cd95ef08.json
+            new file:   node_modules/.cache/babel-loader/aa5d6046e264e73dfa7f9cb106073d5a.json
+            new file:   node_modules/.cache/babel-loader/aa90bd487ec7351b73b0588870994d1e.json
+            new file:   node_modules/.cache/babel-loader/ad3d8d2cf159f41f209a521dad6de7bd.json
+            new file:   node_modules/.cache/babel-loader/adc7aa6d76fb8bf29aa023ef2da69e1b.json
+            new file:   node_modules/.cache/babel-loader/b46aaf0751a51117ab4ef8258e5fddcb.json
+            new file:   node_modules/.cache/babel-loader/b59bbb2fb1442b6b755363c67cef9db6.json
+            new file:   node_modules/.cache/babel-loader/b61c57b2b793a59ed30466b588051ae3.json
+            new file:   node_modules/.cache/babel-loader/b6ed124c484fc49d8773516e9a880833.json
+            new file:   node_modules/.cache/babel-loader/b73271164753ded592dae3cdf2d3dd60.json
+            new file:   node_modules/.cache/babel-loader/b8484c15cd3f540bb8d64c6f71674e35.json
+            new file:   node_modules/.cache/babel-loader/b9be572addac80fbf175ea9fe2869140.json
+            new file:   node_modules/.cache/babel-loader/bab1aafac57c4136df0badbd964bc77c.json
+            new file:   node_modules/.cache/babel-loader/bb2638984fedf5283aa1c2d279dda70d.json
+            new file:   node_modules/.cache/babel-loader/bb263d3ecc1ae8e4364148c3f044ab64.json
+            new file:   node_modules/.cache/babel-loader/bf539b41c1308b74bf21377ef2fc1ff1.json
+            new file:   node_modules/.cache/babel-loader/c0a0e9f5cd0c9dcee4559fa64d2b06e8.json
+            new file:   node_modules/.cache/babel-loader/c0dbeaf7435fd8b779d3599da538e8f7.json
+            new file:   node_modules/.cache/babel-loader/c2cafd8dfdd53d45b9e1e2a6eb686e89.json
+            new file:   node_modules/.cache/babel-loader/c3bc6582bcad7b16de4b13f044122168.json
+            new file:   node_modules/.cache/babel-loader/c4de2bb80265629d3407a39cf19b2f3b.json
+            new file:   node_modules/.cache/babel-loader/c8f2ea465b1c33875a2da245e51f3919.json
+            new file:   node_modules/.cache/babel-loader/ca678970ea34a2fe924592e1f24e6879.json
+            new file:   node_modules/.cache/babel-loader/cab854bbc06ac8d5e7b976162d111143.json
+            new file:   node_modules/.cache/babel-loader/cbe6ed20df9bbf836299e091ba62e05b.json
+            new file:   node_modules/.cache/babel-loader/cc049174ee4aa0250555f0f03e585bb3.json
+            new file:   node_modules/.cache/babel-loader/d1fdb98ecd0c84307f60f3db92308e87.json
+            new file:   node_modules/.cache/babel-loader/d511805d9ee12eebce5d102ed8846531.json
+            new file:   node_modules/.cache/babel-loader/d52d6a061cff5ad01538548d88256eaf.json
+            new file:   node_modules/.cache/babel-loader/d7063f05703c0ce94e6fd3c1f1a7cc4f.json
+            new file:   node_modules/.cache/babel-loader/de5b7780c23014060f7d12b5c20ef401.json
+            new file:   node_modules/.cache/babel-loader/dfb47d624ea6df31312d3a1ea7b6b2e1.json
+            new file:   node_modules/.cache/babel-loader/dfdc144c4b5b5fa829f5f03bed3e0318.json
+            new file:   node_modules/.cache/babel-loader/e1eb5c661fc184348cfe4847baa2b4ad.json
+            new file:   node_modules/.cache/babel-loader/e2356e00f1c4c219c4710ad46a31d0c1.json
+            new file:   node_modules/.cache/babel-loader/e3666b0a72448ebc5c44e0d6ca2fc998.json
+            new file:   node_modules/.cache/babel-loader/e3c34956593d3bf4c8a51f77c3ffc995.json
+            new file:   node_modules/.cache/babel-loader/e463f7f1ac7f821504193c8ad4720fc7.json
+            new file:   node_modules/.cache/babel-loader/e54ef976eb9bb20369624c3e495daf2e.json
+            new file:   node_modules/.cache/babel-loader/e5c1564d57670d9f38c93d867481a352.json
+            new file:   node_modules/.cache/babel-loader/e5e0c94198326afb084abaa532183375.json
+            new file:   node_modules/.cache/babel-loader/ea9b7b795a528563976dab5bbf3ee250.json
+            new file:   node_modules/.cache/babel-loader/ebab02604f70584fd5b6f0f3a3d7f956.json
+            new file:   node_modules/.cache/babel-loader/ecfed38343b9885fa286a9c534edc850.json
+            new file:   node_modules/.cache/babel-loader/ef2bb940490ceb18d6b518d929722547.json
+            new file:   node_modules/.cache/babel-loader/ef7685f3c61f5fc8afc92bde22462460.json
+            new file:   node_modules/.cache/babel-loader/f1ff70d8fde689be39b9d8476d2ded9f.json
+            new file:   node_modules/.cache/babel-loader/f27561930255f950764899b58c69e179.json
+            new file:   node_modules/.cache/babel-loader/f2f83ede2f27dbdc611e5be359225551.json
+            new file:   node_modules/.cache/babel-loader/f364d6971180a90efe735b3040d4369c.json
+            new file:   node_modules/.cache/babel-loader/f497750ec95592bc1d90297d04a4b0d9.json
+            new file:   node_modules/.cache/babel-loader/f6fea6b8cd29f54d1777a43e5c7f496e.json
+            new file:   node_modules/.cache/babel-loader/f84d5da82d440db1b110dccd4af0ef16.json
+            new file:   node_modules/.cache/babel-loader/fa5bb6b2d512f0c3a18fefd2346471ea.json
+            new file:   node_modules/.cache/babel-loader/fb3a745eef4600316aa51e5ebf242d13.json
+            new file:   node_modules/.cache/babel-loader/fbc041fc2aae5aec3710212bc5002e0e.json
+            new file:   node_modules/.cache/babel-loader/fd24d7cc25ed0d685b8e0914610dd82c.json
+            new file:   node_modules/.cache/babel-loader/fd32a2904539740b5efb991dde682885.json
+            new file:   node_modules/.cache/babel-loader/fd51c7d1d86e35cee9f9516f28fcab67.json
+            new file:   node_modules/.cache/babel-loader/fda19d9455d38e96da7d84614d28c34f.json
+            new file:   node_modules/.cache/babel-loader/fda657a1943f19c220188db1e7445355.json
+            new file:   node_modules/.cache/babel-loader/ff77fcdf5aa8277cf2efdb873342bcf3.json
+            modified:   node_modules/.cache/default-development/0.pack
+            modified:   node_modules/.cache/default-development/1.pack
+            modified:   node_modules/.cache/default-development/10.pack
+            modified:   node_modules/.cache/default-development/11.pack
+            modified:   node_modules/.cache/default-development/12.pack
+            modified:   node_modules/.cache/default-development/13.pack
+            modified:   node_modules/.cache/default-development/14.pack
+            modified:   node_modules/.cache/default-development/15.pack
+            modified:   node_modules/.cache/default-development/16.pack
+            modified:   node_modules/.cache/default-development/17.pack
+            modified:   node_modules/.cache/default-development/18.pack
+            modified:   node_modules/.cache/default-development/2.pack
+            modified:   node_modules/.cache/default-development/3.pack
+            modified:   node_modules/.cache/default-development/4.pack
+            modified:   node_modules/.cache/default-development/5.pack
+            modified:   node_modules/.cache/default-development/6.pack
+            modified:   node_modules/.cache/default-development/7.pack
+            modified:   node_modules/.cache/default-development/8.pack
+            modified:   node_modules/.cache/default-development/9.pack
+            modified:   node_modules/.cache/default-development/index.pack
+            modified:   node_modules/.cache/default-development/index.pack.old
+            modified:   src/components/login/registerFields.jsx
+            modified:   src/components/login/style.scss
+            new file:   src/firebase.config.js
+    
+     Changes not staged for commit:
+            modified:   node_modules/.cache/default-development/1.pack
+            modified:   node_modules/.cache/default-development/9.pack
+            modified:   node_modules/.cache/default-development/index.pack
+            modified:   node_modules/.cache/default-development/index.pack.old
+
+[33mcommit 18377547070bc0f540192fbbb9d33b20e4cd94fd[m
+Author: Code-Name-0 <ra.djebarra@esi-sba.dz>
+Date:   Fri Mar 25 11:27:35 2022 +0100
+
+    just removed a file from stage
+
+[33mcommit 0220b6de488256eee17659cd925f031bdd1666bf[m
+Author: Code-Name-0 <ra.djebarra@esi-sba.dz>
+Date:   Fri Mar 25 11:26:38 2022 +0100
+
+    betta version of login and register fron
+
+[33mcommit 335ec718e5eec8006446281e1d6d31307aa63e39[m
+Author: Code-Name-0 <76662578+Code-Name-0@users.noreply.github.com>
+Date:   Fri Mar 25 18:18:28 2022 +0100
+
+    Initial commit

@@ -32,7 +32,7 @@ export const Roadmaps = (props) => {
                     </div>
                     <div className="button">
                         <button onClick={()=>{
-                            handleClick(!all, `${(btnMsg === 'See More')? 'See Less' : 'See More'}`)
+                            handleClick(!all, `${(btnMsg === 'See More')? 'See Less' : 'See More    '}`)
                         }} className="btn">{btnMsg}</button>
                     </div>
                 </div>
@@ -45,6 +45,9 @@ export const Roadmaps = (props) => {
  
 
 
+
+
+
 const Navs = (props) => {
    
     const cats = [...new Set(props.categories.map(c => c.cat))]
@@ -52,10 +55,27 @@ const Navs = (props) => {
     return (
         <div className="navs">
             <button className="btn-nav btn-nav-active"> All Categories </button>
-            {cats.map(cat => <button key={cat} className="btn-nav"> {cat} </button >)}
+
+
+
+            {    cats.map(     cat => <button key={cat} className="btn-nav"> {cat} </button >        )      }
+
+
+
+
         </div>
     );
 }
+
+
+
+
+
+
+
+
+
+
 
 const random = () => {
     console.log('random: ', Math.random()* allRoads().length)

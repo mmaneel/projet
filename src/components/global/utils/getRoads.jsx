@@ -27,13 +27,13 @@ const AllRoads = [
 
 
 export const allRoads = () => {
-    return ( AllRoads );
+    return (AllRoads);
 }
 
 export const RoadsByCat = (category) => {
     return AllRoads.filter(r => r.cat == category);
 }
- 
+
 export const RoadsEnrolled = () => {
     return AllRoads.filter(r => r.enr == true);
 }
